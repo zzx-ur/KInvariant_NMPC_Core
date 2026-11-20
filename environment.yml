@@ -1,0 +1,16 @@
+name: ejc-nmpc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - casadi=3.7.2
+  - numpy
+  - scipy
+  - matplotlib
+  - pyyaml
+  - jinja2
+  - cython
+  - pip
+  - setuptools
+  - wheel
+
