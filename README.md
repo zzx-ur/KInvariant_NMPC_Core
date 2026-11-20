@@ -39,6 +39,15 @@ the validated backup is returned (`acceptance="certified_backup"`). If the
 backup itself is invalid, the update raises an error. Cost improvement is
 not required for acceptance. Validation uses the supplied discrete model.
 
+## SQP feasibility and fallback illustration
+
+The following slide illustrates the feasibility check and certified-trajectory
+fallback, and reports results from a 200-step simulation.
+
+![SQP feasibility check, certified fallback, and reported solve times](results/sqp_infeasible_replacement.png)
+
+[View the original PDF](results/sqp_infeasible_replacement.pdf).
+
 ## Environment and run
 
 Follow [ENVIRONMENT.md](ENVIRONMENT.md) to create the Python environment and
